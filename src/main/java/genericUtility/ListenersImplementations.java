@@ -13,7 +13,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ListenersImplementations implements ITestListener {
-
+	ExtentSparkReporter htmlReport;
 	ExtentReports report;
 	ExtentTest test;
 
@@ -26,7 +26,7 @@ public class ListenersImplementations implements ITestListener {
 	public void onStart(ITestContext context) {
 		System.out.println("---Suite Execution Started---");
 
-		ExtentSparkReporter htmlReport = new ExtentSparkReporter(
+		htmlReport = new ExtentSparkReporter(
 				"./ExtentReports/Reports-" + new JavaUtility().toGetSystemDateAndTime() + ".html");
 		htmlReport.config().setDocumentTitle("Vtiger Execution Report");
 		htmlReport.config().setTheme(Theme.DARK);
