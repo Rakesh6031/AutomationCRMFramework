@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="organizationTests.ToCreateOrgWithIndustryTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="toCreateOrgWithIndustry__003"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- organizationTests.ToCreateOrgWithIndustryTest -->
+      <class name="contactTests.ToCreateContactWithOrgTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="ToCreateContactWithOrgTest__005"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- contactTests.ToCreateContactWithOrgTest -->
+      <class name="organizationTests.ToCreateOrgWithTypeTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="ToCreateOrgWithTypeTest__004"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- organizationTests.ToCreateOrgWithTypeTest -->
       <class name="contactTests.ToCreateContactTest">
         <methods>
           <include name="toCreateContact__001"/>
@@ -15,5 +49,103 @@
         </methods>
       </class> <!-- contactTests.ToCreateContactTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test1(failed) -->
+  <test thread-count="3" parallel="classes" name="Test3(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="organizationTests.ToCreateOrgWithIndustryTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="toCreateOrgWithIndustry__003"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- organizationTests.ToCreateOrgWithIndustryTest -->
+      <class name="contactTests.ToCreateContactWithOrgTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="ToCreateContactWithOrgTest__005"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- contactTests.ToCreateContactWithOrgTest -->
+      <class name="organizationTests.ToCreateOrgWithTypeTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="ToCreateOrgWithTypeTest__004"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- organizationTests.ToCreateOrgWithTypeTest -->
+      <class name="contactTests.ToCreateContactTest">
+        <methods>
+          <include name="toCreateContact__001"/>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- contactTests.ToCreateContactTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="3" parallel="classes" name="Test2(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="organizationTests.ToCreateOrgWithIndustryTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="toCreateOrgWithIndustry__003"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- organizationTests.ToCreateOrgWithIndustryTest -->
+      <class name="contactTests.ToCreateContactWithOrgTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="ToCreateContactWithOrgTest__005"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- contactTests.ToCreateContactWithOrgTest -->
+      <class name="organizationTests.ToCreateOrgWithTypeTest">
+        <methods>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="ToCreateOrgWithTypeTest__004"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- organizationTests.ToCreateOrgWithTypeTest -->
+      <class name="contactTests.ToCreateContactTest">
+        <methods>
+          <include name="toCreateContact__001"/>
+          <include name="afterSuiteConfiguation"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterClassConfiguation"/>
+          <include name="beforeSuiteConfiguration"/>
+          <include name="afterMethodConfiguartion"/>
+        </methods>
+      </class> <!-- contactTests.ToCreateContactTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

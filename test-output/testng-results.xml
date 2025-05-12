@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="13" passed="4" failed="1" skipped="0">
+<testng-results ignored="11" total="13" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Database connection established]]>
@@ -11,88 +11,26 @@
       <![CDATA[WebDriver initialized: Yes]]>
     </line>
     <line>
-      <![CDATA[WebDriver initialized: Yes]]>
-    </line>
-    <line>
-      <![CDATA[WebDriver initialized: Yes]]>
-    </line>
-    <line>
-      <![CDATA[WebDriver initialized: Yes]]>
-    </line>
-    <line>
       <![CDATA[Database connection disconnect]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-04-03T10:06:28 IST" name="Suite" finished-at="2025-04-03T10:08:17 IST" duration-ms="109014">
+  <suite started-at="2025-05-03T18:08:47 IST" name="Suite" finished-at="2025-05-03T18:09:24 IST" duration-ms="37076">
     <groups>
-      <group name="Regression">
-        <method signature="ToCreateOrgTest.toCreateOrg__002()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" name="toCreateOrg__002" class="organizationTests.ToCreateOrgTest"/>
-        <method signature="ToCreateOrgWithIndustryTest.toCreateOrgWithIndustry__003()[pri:0, instance:organizationTests.ToCreateOrgWithIndustryTest@6b2ea799]" name="toCreateOrgWithIndustry__003" class="organizationTests.ToCreateOrgWithIndustryTest"/>
-        <method signature="ToCreateOrgWithTypeTest.ToCreateOrgWithTypeTest__004()[pri:0, instance:organizationTests.ToCreateOrgWithTypeTest@5e0e82ae]" name="ToCreateOrgWithTypeTest__004" class="organizationTests.ToCreateOrgWithTypeTest"/>
-      </group> <!-- Regression -->
       <group name="smoke">
-        <method signature="ToCreateContactTest.toCreateContact__001()[pri:0, instance:contactTests.ToCreateContactTest@51399530]" name="toCreateContact__001" class="contactTests.ToCreateContactTest"/>
-        <method signature="ToCreateContactWithOrgTest.ToCreateContactWithOrgTest__005()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6771beb3]" name="ToCreateContactWithOrgTest__005" class="contactTests.ToCreateContactWithOrgTest"/>
+        <method signature="ToCreateContactTest.toCreateContact__001()[pri:0, instance:contactTests.ToCreateContactTest@1d296da]" name="toCreateContact__001" class="contactTests.ToCreateContactTest"/>
+        <method signature="ToCreateContactWithOrgTest.ToCreateContactWithOrgTest__005()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@776aec5c]" name="ToCreateContactWithOrgTest__005" class="contactTests.ToCreateContactWithOrgTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-04-03T10:06:28 IST" name="Test" finished-at="2025-04-03T10:08:17 IST" duration-ms="109014">
-      <class name="organizationTests.ToCreateOrgWithTypeTest">
-        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:organizationTests.ToCreateOrgWithTypeTest@5e0e82ae]" started-at="2025-04-03T10:07:06 IST" name="beforeClassConfiguration" finished-at="2025-04-03T10:07:08 IST" duration-ms="1926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassConfiguration -->
-        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:organizationTests.ToCreateOrgWithTypeTest@5e0e82ae]" started-at="2025-04-03T10:07:08 IST" name="beforeMethodConfiguration" finished-at="2025-04-03T10:07:10 IST" duration-ms="2671" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[WebDriver initialized: Yes]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethodConfiguration -->
-        <test-method signature="ToCreateOrgWithTypeTest__004()[pri:0, instance:organizationTests.ToCreateOrgWithTypeTest@5e0e82ae]" started-at="2025-04-03T10:07:10 IST" name="ToCreateOrgWithTypeTest__004" finished-at="2025-04-03T10:07:22 IST" duration-ms="11364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ToCreateOrgWithTypeTest__004 -->
-        <test-method is-config="true" signature="afterMethodConfiguartion()[pri:0, instance:organizationTests.ToCreateOrgWithTypeTest@5e0e82ae]" started-at="2025-04-03T10:07:22 IST" name="afterMethodConfiguartion" finished-at="2025-04-03T10:07:23 IST" duration-ms="1559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodConfiguartion -->
-        <test-method is-config="true" signature="afterClassConfiguation()[pri:0, instance:organizationTests.ToCreateOrgWithTypeTest@5e0e82ae]" started-at="2025-04-03T10:07:23 IST" name="afterClassConfiguation" finished-at="2025-04-03T10:07:23 IST" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassConfiguation -->
-      </class> <!-- organizationTests.ToCreateOrgWithTypeTest -->
+    <test started-at="2025-05-03T18:08:47 IST" name="Test" finished-at="2025-05-03T18:09:24 IST" duration-ms="37076">
       <class name="organizationTests.ToCreateOrgTest">
-        <test-method is-config="true" signature="beforeSuiteConfiguration()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" started-at="2025-04-03T10:06:28 IST" name="beforeSuiteConfiguration" finished-at="2025-04-03T10:06:28 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeSuiteConfiguration()[pri:0, instance:organizationTests.ToCreateOrgTest@2b71e916]" started-at="2025-05-03T18:08:47 IST" name="beforeSuiteConfiguration" finished-at="2025-05-03T18:08:47 IST" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database connection established]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuiteConfiguration -->
-        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" started-at="2025-04-03T10:06:28 IST" name="beforeClassConfiguration" finished-at="2025-04-03T10:06:48 IST" duration-ms="19712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassConfiguration -->
-        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" started-at="2025-04-03T10:06:48 IST" name="beforeMethodConfiguration" finished-at="2025-04-03T10:06:51 IST" duration-ms="3194" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[WebDriver initialized: Yes]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethodConfiguration -->
-        <test-method signature="toCreateOrg__002()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" started-at="2025-04-03T10:06:51 IST" name="toCreateOrg__002" finished-at="2025-04-03T10:07:03 IST" duration-ms="12357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toCreateOrg__002 -->
-        <test-method is-config="true" signature="afterMethodConfiguartion()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" started-at="2025-04-03T10:07:03 IST" name="afterMethodConfiguartion" finished-at="2025-04-03T10:07:05 IST" duration-ms="1601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodConfiguartion -->
-        <test-method is-config="true" signature="afterClassConfiguation()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" started-at="2025-04-03T10:07:05 IST" name="afterClassConfiguation" finished-at="2025-04-03T10:07:06 IST" duration-ms="903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassConfiguation -->
-        <test-method is-config="true" signature="afterSuiteConfiguation()[pri:0, instance:organizationTests.ToCreateOrgTest@515c6049]" started-at="2025-04-03T10:08:17 IST" name="afterSuiteConfiguation" finished-at="2025-04-03T10:08:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuiteConfiguation()[pri:0, instance:organizationTests.ToCreateOrgTest@2b71e916]" started-at="2025-05-03T18:09:25 IST" name="afterSuiteConfiguation" finished-at="2025-05-03T18:09:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database connection disconnect]]>
@@ -101,114 +39,51 @@
         </test-method> <!-- afterSuiteConfiguation -->
       </class> <!-- organizationTests.ToCreateOrgTest -->
       <class name="contactTests.ToCreateContactWithOrgTest">
-        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6771beb3]" started-at="2025-04-03T10:07:23 IST" name="beforeClassConfiguration" finished-at="2025-04-03T10:07:25 IST" duration-ms="1909" status="PASS">
+        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@776aec5c]" started-at="2025-05-03T18:08:47 IST" name="beforeClassConfiguration" finished-at="2025-05-03T18:08:50 IST" duration-ms="2262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassConfiguration -->
-        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6771beb3]" started-at="2025-04-03T10:07:25 IST" name="beforeMethodConfiguration" finished-at="2025-04-03T10:07:28 IST" duration-ms="3257" status="PASS">
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@776aec5c]" started-at="2025-05-03T18:08:50 IST" name="beforeMethodConfiguration" finished-at="2025-05-03T18:08:52 IST" duration-ms="2683" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[WebDriver initialized: Yes]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethodConfiguration -->
-        <test-method signature="ToCreateContactWithOrgTest__005()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6771beb3]" started-at="2025-04-03T10:07:28 IST" name="ToCreateContactWithOrgTest__005" finished-at="2025-04-03T10:07:40 IST" duration-ms="11835" status="PASS">
+        <test-method signature="ToCreateContactWithOrgTest__005()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@776aec5c]" started-at="2025-05-03T18:08:52 IST" name="ToCreateContactWithOrgTest__005" finished-at="2025-05-03T18:09:06 IST" duration-ms="13174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToCreateContactWithOrgTest__005 -->
-        <test-method is-config="true" signature="afterMethodConfiguartion()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6771beb3]" started-at="2025-04-03T10:07:40 IST" name="afterMethodConfiguartion" finished-at="2025-04-03T10:07:42 IST" duration-ms="1698" status="PASS">
+        <test-method is-config="true" signature="afterMethodConfiguartion()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@776aec5c]" started-at="2025-05-03T18:09:06 IST" name="afterMethodConfiguartion" finished-at="2025-05-03T18:09:07 IST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodConfiguartion -->
-        <test-method is-config="true" signature="afterClassConfiguation()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6771beb3]" started-at="2025-04-03T10:07:42 IST" name="afterClassConfiguation" finished-at="2025-04-03T10:07:42 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="afterClassConfiguation()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@776aec5c]" started-at="2025-05-03T18:09:07 IST" name="afterClassConfiguation" finished-at="2025-05-03T18:09:08 IST" duration-ms="561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassConfiguation -->
       </class> <!-- contactTests.ToCreateContactWithOrgTest -->
-      <class name="organizationTests.ToCreateOrgWithIndustryTest">
-        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:organizationTests.ToCreateOrgWithIndustryTest@6b2ea799]" started-at="2025-04-03T10:07:59 IST" name="beforeClassConfiguration" finished-at="2025-04-03T10:08:01 IST" duration-ms="2012" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassConfiguration -->
-        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:organizationTests.ToCreateOrgWithIndustryTest@6b2ea799]" started-at="2025-04-03T10:08:01 IST" name="beforeMethodConfiguration" finished-at="2025-04-03T10:08:04 IST" duration-ms="2923" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[WebDriver initialized: Yes]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethodConfiguration -->
-        <test-method signature="toCreateOrgWithIndustry__003()[pri:0, instance:organizationTests.ToCreateOrgWithIndustryTest@6b2ea799]" started-at="2025-04-03T10:08:04 IST" name="toCreateOrgWithIndustry__003" finished-at="2025-04-03T10:08:15 IST" duration-ms="10741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toCreateOrgWithIndustry__003 -->
-        <test-method is-config="true" signature="afterMethodConfiguartion()[pri:0, instance:organizationTests.ToCreateOrgWithIndustryTest@6b2ea799]" started-at="2025-04-03T10:08:15 IST" name="afterMethodConfiguartion" finished-at="2025-04-03T10:08:16 IST" duration-ms="1579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodConfiguartion -->
-        <test-method is-config="true" signature="afterClassConfiguation()[pri:0, instance:organizationTests.ToCreateOrgWithIndustryTest@6b2ea799]" started-at="2025-04-03T10:08:16 IST" name="afterClassConfiguation" finished-at="2025-04-03T10:08:17 IST" duration-ms="191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassConfiguation -->
-      </class> <!-- organizationTests.ToCreateOrgWithIndustryTest -->
       <class name="contactTests.ToCreateContactTest">
-        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:contactTests.ToCreateContactTest@51399530]" started-at="2025-04-03T10:07:42 IST" name="beforeClassConfiguration" finished-at="2025-04-03T10:07:44 IST" duration-ms="1910" status="PASS">
+        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:contactTests.ToCreateContactTest@1d296da]" started-at="2025-05-03T18:09:08 IST" name="beforeClassConfiguration" finished-at="2025-05-03T18:09:10 IST" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassConfiguration -->
-        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:contactTests.ToCreateContactTest@51399530]" started-at="2025-04-03T10:07:44 IST" name="beforeMethodConfiguration" finished-at="2025-04-03T10:07:49 IST" duration-ms="4962" status="PASS">
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:contactTests.ToCreateContactTest@1d296da]" started-at="2025-05-03T18:09:10 IST" name="beforeMethodConfiguration" finished-at="2025-05-03T18:09:12 IST" duration-ms="2632" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[WebDriver initialized: Yes]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethodConfiguration -->
-        <test-method signature="toCreateContact__001()[pri:0, instance:contactTests.ToCreateContactTest@51399530]" started-at="2025-04-03T10:07:49 IST" name="toCreateContact__001" finished-at="2025-04-03T10:07:54 IST" duration-ms="5152" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at contactTests.ToCreateContactTest.toCreateContact__001(ToCreateContactTest.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="toCreateContact__001()[pri:0, instance:contactTests.ToCreateContactTest@1d296da]" started-at="2025-05-03T18:09:12 IST" name="toCreateContact__001" finished-at="2025-05-03T18:09:23 IST" duration-ms="10283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toCreateContact__001 -->
-        <test-method is-config="true" signature="afterMethodConfiguartion()[pri:0, instance:contactTests.ToCreateContactTest@51399530]" started-at="2025-04-03T10:07:57 IST" name="afterMethodConfiguartion" finished-at="2025-04-03T10:07:59 IST" duration-ms="1585" status="PASS">
+        <test-method is-config="true" signature="afterMethodConfiguartion()[pri:0, instance:contactTests.ToCreateContactTest@1d296da]" started-at="2025-05-03T18:09:23 IST" name="afterMethodConfiguartion" finished-at="2025-05-03T18:09:24 IST" duration-ms="1484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodConfiguartion -->
-        <test-method is-config="true" signature="afterClassConfiguation()[pri:0, instance:contactTests.ToCreateContactTest@51399530]" started-at="2025-04-03T10:07:59 IST" name="afterClassConfiguation" finished-at="2025-04-03T10:07:59 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="afterClassConfiguation()[pri:0, instance:contactTests.ToCreateContactTest@1d296da]" started-at="2025-05-03T18:09:24 IST" name="afterClassConfiguation" finished-at="2025-05-03T18:09:24 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassConfiguation -->

@@ -11,7 +11,11 @@ public class LoginPage {
 	
 	//Constructor
 	
+	WebDriver driver;
+	
 	public LoginPage(WebDriver driver) {
+		
+		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
 	
